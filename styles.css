@@ -1,0 +1,87 @@
+/* Font yang digunakan dalam page */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Section */
+.navbar #title {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav .active > a {
+  color: #ff0073 !important;
+  border-bottom: 3px solid #ff0073 !important;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+  /* This section for change background color and border radius of jumbotron */
+  background-image: linear-gradient(270deg, #fce7f6, #e3eaf8);
+  border-radius: 50px 50px 0px 0px;
+  padding-bottom: 10px;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.jumbotron .lead {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.jumbotron .description {
+  line-height: 3;
+}
+
+.jumbotron .btn {
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px 50px 10px 50px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.jumbotron a {
+  color: #ff0073;
+  vertical-align: middle;
+}
+
+.jumbotron a:hover {
+  background-color: #ff0073;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron img {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .col-lg-2 img,
+.col-lg-8 img {
+  height: 50px;
+  width: 50px;
+}
+
+.jumbotron .col-lg-2 svg {
+  margin-bottom: 30px;
+}
+
+.jumbotron .col-lg-1 .bi {
+  margin-top: 170px;
+  position: relative;
+}
+
+#hero-shoe .jumbotron .col-lg-7 .row img {
+  margin-right: 30px;
+}
